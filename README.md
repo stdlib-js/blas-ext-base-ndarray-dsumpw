@@ -33,7 +33,7 @@ limitations under the License.
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
-> Compute the sum of a one-dimensional double-precision floating-point ndarray using pairwise summation.
+> Compute the sum of all elements in a one-dimensional double-precision floating-point ndarray using pairwise summation.
 
 <section class="intro">
 
@@ -71,7 +71,7 @@ var dsumpw = require( '@stdlib/blas-ext-base-ndarray-dsumpw' );
 
 #### dsumpw( arrays )
 
-Computes the sum of a one-dimensional double-precision floating-point ndarray using pairwise summation.
+Computes the sum of all elements in a one-dimensional double-precision floating-point ndarray using pairwise summation.
 
 ```javascript
 var Float64Vector = require( '@stdlib/ndarray-vector-float64' );
